@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+> **This project is under active development!**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# This is an Instagram Clone
+    Instagram is a social networking site for sharing pictures and videos online (often abbreviated as Insta or IG). Users can shoot photos and videos, edit them with digital filters, and then share them with their followers. Then, they can post them to a number of social networking websites, including Flickr, Facebook, Twitter, and Tumblr.
+    Instagram restricted images to a square format until 2015, much like Kodak Instamatic and Polaroid shots. The aspect ratio was different from the standard 4:3 utilised by digital cameras. Very brief videos could be shared by users. The time restriction was increased to ten minutes in 2017.
+    Mike Krieger and Kevin Systrom founded Instagram. Kevin Systrom and Mike Krieger were motivated to create a photography-specific app after speaking with renowned New York photographer Peter Parker, a photographer for the Daily Bugle. The publication date was October 6, 2010.
 
-## Available Scripts
+## Tech-Stacks used:
+#### Front-End
+    1. ReactJs
+    2. StoryBook
+    3. Styled-Components
+#### Back-End
+    > no progress yet.
+    
+## Expected features
+    1. Able to follow others
+    2. Communicate via direct messaging
+    3. Search for other users using userId
+    4. Add stories
+    5. Get notifications
+    6. Watch reels
+    7. Have a profile page
+    8. update profile details with basic parameters
+    9. Like, comment and share a story
 
-In the project directory, you can run:
+> Date of project initiation: *Feb 10th, 2023*
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Estimated date of project completion: *1st week of April, 2023*

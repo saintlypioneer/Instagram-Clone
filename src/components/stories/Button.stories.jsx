@@ -1,9 +1,9 @@
 import React from 'react';
 
-import NavbarButton from '../NavbarButton';
+import NavbarButton from '../widgets/buttons/NavbarButton';
 
 export default {
-  title: 'Components/Widgets/NavbarButton',
+  title: 'Components/Widgets/Buttons/NavbarButton',
   component: NavbarButton,
   argTypes: {
     active: {Boolean},

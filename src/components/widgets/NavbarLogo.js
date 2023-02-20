@@ -6,6 +6,7 @@ function NavbarLogo() {
     <Logo>
         <img src="/images/logo.svg" alt="" />
         <img src="/images/text-logo.svg" alt="" />
+        <div className='xyz'></div>
     </Logo>
   )
 }

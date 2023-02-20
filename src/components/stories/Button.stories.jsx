@@ -27,7 +27,7 @@ Primary.args = {
 export const Active = Template.bind({});
 Active.args = {
   active: true,
-  notificationCount: 5,
+  notificationCount: 15,
   icon: '/images/home.svg',
   title: 'Home'
 };

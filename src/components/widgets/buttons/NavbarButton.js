@@ -6,7 +6,7 @@ function NavbarButton(props) {
     <Button active={props.active}>
       <div>
       <img src={props.icon} alt="" srcset="" />
-      <span>{props.notificationCount>9?'':props.notificationCount}</span>
+      {/* <span>{props.notificationCount}</span> */}
       </div>
       <span>{props.title}</span>
     </Button>
@@ -14,56 +14,60 @@ function NavbarButton(props) {
 }
 
 const Button = styled.button`
-  padding: 8px 15px;
-  background-color: transparent;
-  border: none;
-  color: white;
+  background-color: #fff;
   display: flex;
+  padding: 12px;
+  width: 100%;
+  max-width: 280px;
   justify-content: start;
   align-items: center;
-  gap: 15px;
-  border-radius: 50px;
-  min-width: 170px;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 800;
+  border-radius: 24px;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  transition: all 0.3s;
 
-  @media (max-width: 768px) {
-    min-width: fit-content;
-    width: 30px;
-    height: 30px;
-    padding: 35px 20px;
-  }
+  &>div{
+    width: 24px;
+    height: 24px;
+      position: relative;
 
-  div{
-    position: relative;
-
-    span {
-      font-size: 0.6rem;
-      width: 10px;
-      height: 10px;
-      background-color: #ff3040;
-      padding: ${(props)=>(props.notificationCount>9?"0px":"2px 2px")};
-      border-radius: 10px;
-      position: absolute;
-      top: -5px;
-      right: -10px;
+    &>img{
+      width: 24px;
+      height: 24px;
+      border-radius: ${({title})=>((title=="Profile")?'50%':'0%')};
     }
+    /* 
+      Notification Count
+      &>span{
+      font-size: 11px;
+      font-weight: 400;
+      position: absolute;
+      background-color: #F3425F;
+      color: white;
+      top: -8px;
+      right: -6px;
+      padding: 2px 5px;
+      border-radius: 50px;
+      display: ${(props)=>(props.notificationCount=='0'?'none':'initial')};
+      } */
   }
 
-  img{
-    width: 25px;
-    height: 25px;
+  &:hover{
+    background-color: rgba(0, 0, 0, 0.03);
   }
 
-   & > span{
-    font-size: 1.1rem;
-    font-weight: ${(props)=>(props.active? "600": "400")};
-
-    @media (max-width: 768px) {
+  @media (max-width: 768px){
+    width: fit-content;
+    &>span{
       display: none;
     }
   }
 
-  &:hover{
-    background-color: rgb(18, 18, 18);
+  @media (max-width: 320px){
+    background-color: aqua;
   }
 `;
 

@@ -6,13 +6,13 @@ function NavbarLogo() {
     <Logo>
         <img src="/images/logo.svg" alt="" />
         <img src="/images/text-logo.svg" alt="" />
-        <div className='xyz'></div>
     </Logo>
   )
 }
 
 const Logo = styled.div`
     width: fit-content;
+    height: 48px;
     padding: 5px;
     display: flex;
     justify-content: center;

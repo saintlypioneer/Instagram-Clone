@@ -20,7 +20,7 @@ export const Primary = Template.bind({});
 Primary.args = {
   active: false,
   notificationCount: 8,
-  icon: '/images/home.svg',
+  icon: '/images/messenger-outline-light.svg',
   title: 'Home'
 };
 

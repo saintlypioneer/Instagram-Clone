@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Post from '../widgets/Post';
+import Post from '../Molecules/Post';
 
 export default {
   title: 'Components/Widgets/Post',

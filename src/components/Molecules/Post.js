@@ -181,8 +181,8 @@ const Comments = styled.div`
             }
 
             img{
-                width: 24px;
-                height: 24px;
+                width: 15px;
+                height: auto;
             }
         }
     }

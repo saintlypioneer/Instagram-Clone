@@ -1,6 +1,6 @@
 import React from 'react';
 
-import NavbarLogo from '../widgets/NavbarLogo';
+import NavbarLogo from '../Atoms/NavbarLogo';
 
 export default {
   title: 'Components/Widgets/NavbarLogo',

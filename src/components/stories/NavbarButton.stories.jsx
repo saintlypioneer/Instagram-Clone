@@ -1,6 +1,6 @@
 import React from 'react';
 
-import NavbarButton from '../widgets/buttons/NavbarButton';
+import NavbarButton from '../Atoms/buttons/NavbarButton';
 
 export default {
   title: 'Components/Widgets/Buttons/NavbarButton',

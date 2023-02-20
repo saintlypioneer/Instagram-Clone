@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Navbar from '../widgets/Navbar';
+import Navbar from '../Molecules/Navbar';
 
 export default {
   title: 'Components/Widgets/Navbar',

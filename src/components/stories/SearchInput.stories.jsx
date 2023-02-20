@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SearchInput from '../widgets/textinput/SearchInput';
+import SearchInput from '../Atoms/textinput/SearchInput';
 
 export default {
   title: 'Components/Widgets/TextInput/SearchInput',

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import NavbarButton from './buttons/NavbarButton';
-import NavbarLogo from './NavbarLogo';
+import NavbarButton from '../Atoms/buttons/NavbarButton';
+import NavbarLogo from '../Atoms/NavbarLogo';
 
 
 function Navbar() {

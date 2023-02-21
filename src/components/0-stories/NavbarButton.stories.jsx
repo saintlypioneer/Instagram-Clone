@@ -3,7 +3,7 @@ import React from 'react';
 import NavbarButton from '../Atoms/buttons/NavbarButton';
 
 export default {
-  title: 'Components/Widgets/Buttons/NavbarButton',
+  title: 'Atoms/Buttons/NavbarButton',
   component: NavbarButton,
   argTypes: {
     active: {Boolean},

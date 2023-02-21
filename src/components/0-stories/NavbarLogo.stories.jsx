@@ -3,7 +3,7 @@ import React from 'react';
 import NavbarLogo from '../Atoms/NavbarLogo';
 
 export default {
-  title: 'Components/Widgets/NavbarLogo',
+  title: 'Atoms/NavbarLogo',
   component: NavbarLogo,
   argTypes: {
     

@@ -3,7 +3,7 @@ import React from 'react';
 import SearchInput from '../Atoms/textinput/SearchInput';
 
 export default {
-  title: 'Components/Widgets/TextInput/SearchInput',
+  title: 'Atoms/TextInput/SearchInput',
   component: SearchInput,
   argTypes: {
     

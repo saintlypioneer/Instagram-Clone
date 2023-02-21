@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Navbar from '../Molecules/Navbar';
+import Navbar from '../Organisms/Navbar';
 
 export default {
-  title: 'Components/Widgets/Navbar',
+  title: 'Molecules/Navbar',
   component: Navbar,
   argTypes: {
     

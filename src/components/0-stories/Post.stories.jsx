@@ -3,7 +3,7 @@ import React from 'react';
 import Post from '../Molecules/Post';
 
 export default {
-  title: 'Components/Widgets/Post',
+  title: 'Molecules/Post',
   component: Post,
   argTypes: {
   },

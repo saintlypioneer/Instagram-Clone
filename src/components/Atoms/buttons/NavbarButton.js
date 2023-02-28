@@ -1,15 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
+import {Link} from 'react-router-dom'
 
 function NavbarButton(props) {
   return (
+      <Link style={{textDecoration: 'none'}} to={props.link}>
     <Button active={props.active}>
-      <div>
-      <img src={props.icon} alt="" srcset="" />
-      {/* <span>{props.notificationCount}</span> */}
-      </div>
-      <span>{props.title}</span>
+        <div>
+        <img src={props.icon} alt="" srcset="" />
+        {/* <span>{props.notificationCount}</span> */}
+        </div>
+        <span>{props.title}</span>
     </Button>
+      </Link>
   )
 }
 
@@ -29,12 +32,13 @@ const Button = styled.button`
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   transition: all 0.3s;
 
-  &>div{
+
+  & div{
     width: 24px;
     height: 24px;
       position: relative;
 
-    &>img{
+    & img{
       width: 24px;
       height: 24px;
       border-radius: ${({title})=>((title=="Profile")?'50%':'0%')};

@@ -9,16 +9,16 @@ function Navbar() {
     <Nav>
       <NavbarLogo/>
       <NavbarCenter>
-        <NavbarButton active={false} notificationCount={8} icon='/images/home.svg' title='Home' />
-        <NavbarButton active={false} notificationCount={8} icon='/images/search.svg' title='Search' />
-        <NavbarButton active={false} notificationCount={8} icon='/images/explore.svg' title='Explore' />
-        <NavbarButton active={false} notificationCount={8} icon='/images/reels.svg' title='Reels' />
-        <NavbarButton active={false} notificationCount={8} icon='/images/messenger-outline-light.svg' title='Messages' />
-        <NavbarButton active={false} notificationCount={8} icon='/images/heart.svg' title='Notifications' />
-        <NavbarButton active={false} notificationCount={8} icon='/images/add.svg' title='Create' />
-        <NavbarButton active={false} notificationCount={8} icon='https://images.unsplash.com/photo-1601233749202-95d04d5b3c00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2038&q=80' title='Profile' />
+        <NavbarButton link="/" active={false} notificationCount={8} icon='/images/home.svg' title='Home' />
+        <NavbarButton link="/search" active={false} notificationCount={8} icon='/images/search.svg' title='Search' />
+        <NavbarButton link="/explore" active={false} notificationCount={8} icon='/images/explore.svg' title='Explore' />
+        <NavbarButton link="/reels" active={false} notificationCount={8} icon='/images/reels.svg' title='Reels' />
+        <NavbarButton link="/chat" active={false} notificationCount={8} icon='/images/messenger-outline-light.svg' title='Messages' />
+        <NavbarButton link="/notifications" active={false} notificationCount={8} icon='/images/heart.svg' title='Notifications' />
+        <NavbarButton link="/create" active={false} notificationCount={8} icon='/images/add.svg' title='Create' />
+        <NavbarButton link="/profile" active={false} notificationCount={8} icon='https://images.unsplash.com/photo-1601233749202-95d04d5b3c00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2038&q=80' title='Profile' />
       </NavbarCenter>
-      <NavbarButton active={false} notificationCount={8} icon='/images/burger.svg' title='More' />
+      <NavbarButton link="/more" active={false} notificationCount={8} icon='/images/burger.svg' title='More' />
     </Nav>
   )
 }
